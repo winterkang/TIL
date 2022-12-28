@@ -156,3 +156,31 @@ working directory(파일의 변경사항)
 - --local
   - .git/config
   - 특정 저장소에만 적용되는 설정
+
+</br>
+
+# 총정리
+(1) $ git config
+
+  : git 설치시 가장 먼저해야 하는 것
+```
+$ git config --global user.name “유저네임”
+$ git config --global user.email "이메일주소"
+```
+(2) $ git init
+
+  : 로컬 저장소로 사용할 폴더를 만들기
+```
+$ git init
+```
+(3) $ git add
+
+  : 로컬 저장소에 파일 추가
+```
+$ git add 파일명
+```
+(4) $ git commit 
+
+  : staged 상태의 파일을 커밋하기 / 로컬 저장소에 저장됨
+```
+$ git commit -m '메시지 남기기'
