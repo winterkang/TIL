@@ -196,3 +196,8 @@ $ git remote add origin (url주소)
 ```
 $ git push origin master
 ```
+
+(7) $ git pull
+```
+$ git pull origin master
+```
