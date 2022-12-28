@@ -159,6 +159,19 @@ working directory(파일의 변경사항)
 
 </br>
 
+# 명령어
+|명령어|내용|
+|------|---|
+|git clone (url)|원격 저장소 복제|
+|git remote -v|원격저장소 정보 확인|
+|git remote add origin (url)|원격 저장소 추가|
+|git remote rm origin|원격 저장소 삭제|
+|git push origin|원격저장소에 push|
+|git pull origin|원격저장소로부터 pull|
+
+
+</br>
+
 # 총정리
 (1) $ git config
 
@@ -201,3 +214,4 @@ $ git push origin master
 ```
 $ git pull origin master
 ```
+
