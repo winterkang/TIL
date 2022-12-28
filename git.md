@@ -36,8 +36,8 @@
 # 원격저장소 (Remote Repository)
 - 네트워크를 활용한 저장소
   - github, gitlab, bitbucket
-- 로컬 저장소의 버전을 원격저장소로 보낸다. `$ git push`
-- 원격 저장소의 버전(커밋)을 로컬 저장소로 가져온다. `$ git pull`
+- 로컬 저장소의 버전을 원격저장소로 보낸다, 내가 한 로컬 프로젝트 개발 공유할때 `$ git push`
+- 원격 저장소의 버전(커밋)을 로컬 저장소로 가져온다, 프로젝트 개발 중 다른 사람 커밋 받아올때 `$ git pull`
 
 
 </br>
@@ -145,17 +145,11 @@ working directory(파일의 변경사항)
   - git config - global -l
   - git config user.name
 
-- --system
-  - /etc/gitconfig
-  - 시스템의 모든 사용자와 모든 저장소에 적용(관리자 권한)
+</br>
 
-- --global
-  - ~/.gitconfig
-  - 현재 사용자에게 적용되는 설정
-
-- --local
-  - .git/config
-  - 특정 저장소에만 적용되는 설정
+# clone vs pull
+- clone : 원격저장소 복제, 원격에 있는 프로젝트 시작할때(협업)
+- pull : 원격저장소 커밋 가져오기, 프로젝트 개발 중 다른 사람 커밋 받아올떄
 
 </br>
 
@@ -170,6 +164,24 @@ working directory(파일의 변경사항)
 |git pull origin|원격저장소로부터 pull|
 
 
+</br>
+
+# Push Conflict
+- $ git push origin master 입력시 오류발생
+- 왜? 로컬과 원격 저장소의 커밋 이력이 다르기 때문에! `$git log --oneline`
+- 해결방법
+  - 원격저장소의 커밋을 원격저장소로 가져와서(pull)
+  - 로컬에서 두 커밋을 병합(추가 커밋 발생)
+    - 동시에 같은 파일 수정시 merge comflict발생 (브랜치 학습 필요)
+  - 다시 github으로 push
+
+</br>
+
+# Gitignore
+- 프로젝트할때 버전 관리를 별도로 하지 않는 파일/디렉토리 발생
+- git 저장소에 .gitignore 파일 생성하고 해당 내용 관리
+- `주의!` 이미 커밋된 파일은 반드시 삭제를 해야 .gitignore로 적용됨!
+  
 </br>
 
 # 총정리
