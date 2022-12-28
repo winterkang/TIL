@@ -184,3 +184,15 @@ $ git add 파일명
   : staged 상태의 파일을 커밋하기 / 로컬 저장소에 저장됨
 ```
 $ git commit -m '메시지 남기기'
+```
+(5) $ git reomte
+```
+$ git remote add origin (url주소)
+ → remote 입력 확인 : $ git remote -v
+ → origin (url 주소) (fetch)
+ → origin (url 주소) (push)
+ ```
+(6) $ git push
+```
+$ git push origin master
+```
