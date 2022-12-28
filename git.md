@@ -185,7 +185,7 @@ $ git add 파일명
 ```
 $ git commit -m '메시지 남기기'
 ```
-(5) $ git reomte
+(5) $ git remote
 ```
 $ git remote add origin (url주소)
  → remote 입력 확인 : $ git remote -v
