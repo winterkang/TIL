@@ -124,7 +124,7 @@ mac option + `
 </br>
 
 ## image : 이미지
-  ![하트](./img/%ED%95%98%ED%8A%B8.png)
+  ![쿼카](./img/%EC%BF%BC%EC%B9%B4.jpeg)
 ```markdown
 ![이미지](이미지주소)
 ```
