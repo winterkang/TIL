@@ -12,9 +12,7 @@
 * [Library](https://github.com/winterkang/TIL/blob/master/%EB%B9%84%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC_%EC%9C%84%ED%95%9C_IT%EC%A7%80%EC%8B%9D.md#library)
 * [DB](https://github.com/winterkang/TIL/blob/master/%EB%B9%84%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC_%EC%9C%84%ED%95%9C_IT%EC%A7%80%EC%8B%9D.md#databasedb)
 
-
-
-<details>
+</details>
 
 ##  markdown
 
