@@ -56,3 +56,19 @@
 * [Fork](https://github.com/winterkang/TIL/blob/master/git_2.md#fork)
 
 </details>
+
+
+## Python
+
+<details>
+<summary>자세히</summary>
+
+* [객체와 변수](https://github.com/winterkang/TIL/blob/master/python_%EA%B8%B0%EC%B4%88.md#%EA%B0%9D%EC%B2%B4%EC%99%80-%EB%B3%80%EC%88%98)
+* [식별자](https://github.com/winterkang/TIL/blob/master/python_%EA%B8%B0%EC%B4%88.md#%EC%8B%9D%EB%B3%84%EC%9E%90identifiers)
+* [자료형](https://github.com/winterkang/TIL/blob/master/python_%EA%B8%B0%EC%B4%88.md#%EC%9E%90%EB%A3%8C%ED%98%95-data-type)
+* [컨테이너](https://github.com/winterkang/TIL/blob/master/python_%EA%B8%B0%EC%B4%88.md#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88container)
+* [연산자](https://github.com/winterkang/TIL/blob/master/python_%EA%B8%B0%EC%B4%88.md#%EC%97%B0%EC%82%B0%EC%9E%90operator)
+* [문자열](https://github.com/winterkang/TIL/blob/master/python_%EA%B8%B0%EC%B4%88.md#%EB%AC%B8%EC%9E%90%EC%97%B4string-type--%EB%AC%B8%EC%9E%90%EC%97%B4%EC%9D%98-%EB%82%98%EC%97%B4)
+* [리스트](https://github.com/winterkang/TIL/blob/master/python_%EA%B8%B0%EC%B4%88.md#%EB%A6%AC%EC%8A%A4%ED%8A%B8list--%EB%B3%80%EA%B2%BD-%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B0%92%EB%93%A4%EC%9D%98-%EB%82%98%EC%97%B4)
+
+</details>
