@@ -219,7 +219,7 @@ x = 10 y = 20 일 때, 각각 값을 바꿔서 저장하는 코드를 작성하�
 ```
 - 추가 : .append( )
 ```
-    fruits.append(orange)
+    fruits.append("orange")
   >> ["apple","grape","melon","orange"]
 ```
 - 삭제 : .pop( )
