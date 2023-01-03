@@ -27,7 +27,7 @@ CPU가 RAM에서 작업하고
 - IP 주소 : 위치에 따른 고유한 숫자 주소
 - 인터넷 : 모든 컴퓨터들이 연결되어 있는 네트워크 망
   
-![client_server](./img/client_server.png)
+![client_server](/lecuture/img/client_server.png)
 
 </br>
 
@@ -53,7 +53,7 @@ CPU가 RAM에서 작업하고
 - 여러 프로그램들과 데이터베이스, 그리고 기능들의 상호 통신 방법을 규정하고 도와주는 매개체
 - API는 데이터베이스가 아니지만, 엑세스 권한이 있는 앱의 권한 규정과 `서비스 요청`에 따라 데이터나 서비스 기능을 제공하는 메신저 역할을 함
 
-![API](./img/api.png)
+![API](/lecuture/img/api.png/)
 
 > Request
 
@@ -85,7 +85,7 @@ CPU가 RAM에서 작업하고
 
 </br>
 
-![framework_library](./img/framework-vs-library.png)
+![framework_library](/lecuture/img/framework-vs-library.png)
 > 쉽게 말해서 프레임워크와 라이브러리는 개발자들이 개발을 편리하게 할 수 있도록 이미 만들어진 소스코드들의 뭉터기!
 
 </br>
@@ -111,6 +111,6 @@ CPU가 RAM에서 작업하고
 
 </br>
 
-![개발전체흐름](./img/개발전체흐름.png)
+![개발전체흐름](/lecuture/img/개발전체흐름.png/)
 
-![개발전체흐름2](./img/개발흐름2.png)
+![개발전체흐름2](/lecuture/img/개발흐름2.png)
