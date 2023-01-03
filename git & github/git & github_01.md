@@ -71,6 +71,21 @@ working directory(파일의 변경사항)
 
 </br>
 
+# git 설정 파일 (config)
+- 사용자 정보(commit author) : 커밋을 하기 위해 반드시 필요
+- 깃허브에서 설정한 username과 email로 설정
+  
+  ```
+  git config --global user.name "username" 
+  git config --global user.email "useremail"
+  ```
+- 설정 확인
+  - git config - l
+  - git config - global -l
+  - git config user.name
+
+</br>
+
 # git init 
 - 로컬에서 새로운 프로젝트 시작 
 - 특정 폴더를 git 저장소를 만들어 git으로 관리함
@@ -80,7 +95,7 @@ working directory(파일의 변경사항)
 </br>
 
 # 버전 기록 흐름
-![버전기록흐름](./img/버전기록흐름.png)
+![버전기록흐름](/git%20%26%20github/img/%EB%B2%84%EC%A0%84%EA%B8%B0%EB%A1%9D%ED%9D%90%EB%A6%84.png)
 1. 작업(수정)한 파일을(working directory)
    → `$ git add 파일`을 입력하고
     - untracked → staged
@@ -94,7 +109,7 @@ working directory(파일의 변경사항)
 
 # 현재 상태를 어떻게 알 수 있을까?
 
-![현재상태](./img/현재상태.png)
+![현재상태](/git%20%26%20github/img/%ED%98%84%EC%9E%AC%EC%83%81%ED%83%9C.png)
 - `$ git status`
   - git 저장소에 있는 파일의 상태를 확인하기 위하여 활용
   - Status로 확인할 수 있는 파일의 상태
@@ -115,12 +130,20 @@ working directory(파일의 변경사항)
 
 </br>
 
+# .gitignore
+- 프로젝트할때 버전 관리를 별도로 하지 않는 파일/디렉토리 발생
+- git 저장소에 .gitignore 파일 생성하고 해당 내용 관리
+- `주의!` 이미 커밋된 파일은 반드시 삭제를 해야 .gitignore로 적용됨!
+  
+</br>
+
 # 파일 라이프사이클
-![파일라이프사이클](./img/파일라이프사이클.png)
+![파일라이프사이클](/git%20%26%20github/img/%ED%8C%8C%EC%9D%BC%EB%9D%BC%EC%9D%B4%ED%94%84%EC%82%AC%EC%9D%B4%ED%81%B4.png)
+
 
 </br>
 
-# git 기초 명령어
+# 명령어
 
 |명령어|내용|
 |------|---|
@@ -129,33 +152,6 @@ working directory(파일의 변경사항)
 |git commit -m '커밋메시지'|커밋(버전 기록)|
 |git status|상태 확인|
 |git log|버전 확인|
-
-</br>
-
-# Git 설정 파일 (config)
-- 사용자 정보(commit author) : 커밋을 하기 위해 반드시 필요
-- 깃허브에서 설정한 username과 email로 설정
-  
-  ```
-  git config --global user.name "username" 
-  git config --global user.email "useremail"
-  ```
-- 설정 확인
-  - git config - l
-  - git config - global -l
-  - git config user.name
-
-</br>
-
-# clone vs pull
-- clone : 원격저장소 복제, 원격에 있는 프로젝트 시작할때(협업)
-- pull : 원격저장소 커밋 가져오기, 프로젝트 개발 중 다른 사람 커밋 받아올떄
-
-</br>
-
-# 명령어
-|명령어|내용|
-|------|---|
 |git clone (url)|원격 저장소 복제|
 |git remote -v|원격저장소 정보 확인|
 |git remote add origin (url)|원격 저장소 추가|
@@ -175,13 +171,6 @@ working directory(파일의 변경사항)
     - 동시에 같은 파일 수정시 merge comflict발생 (브랜치 학습 필요)
   - 다시 github으로 push
 
-</br>
-
-# Gitignore
-- 프로젝트할때 버전 관리를 별도로 하지 않는 파일/디렉토리 발생
-- git 저장소에 .gitignore 파일 생성하고 해당 내용 관리
-- `주의!` 이미 커밋된 파일은 반드시 삭제를 해야 .gitignore로 적용됨!
-  
 </br>
 
 # 총정리

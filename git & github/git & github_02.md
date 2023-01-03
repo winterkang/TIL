@@ -1,8 +1,14 @@
+# clone vs pull
+- clone : 원격저장소 복제, 원격에 있는 프로젝트 시작할때(협업)
+- pull : 원격저장소 커밋 가져오기, 프로젝트 개발 중 다른 사람 커밋 받아올떄
+
+</br>
+
 # Branch
 - 여러 개발자들이 동시에 다양한 작업을 할 수 있게 만들어 주는 기능
 - 독립적인 작업흐름을 만들고 관리함
 
-![branch](img/branch.png)
+![branch](/git%20%26%20github/img/branch.png)
 
 </br>
 
@@ -96,7 +102,7 @@ $ git commit -m 'issue3브랜치병합'
 - Git을 활용하여 협업하는 흐름
 - branch를 활용하는 전략
 
-![gitflow](img/git%20flow.png)
+![gitflow](/git%20%26%20github/img/git%20flow.png)
 
 ## Github Flow 기본원칙
 1. master branch는 반드시 배포 가능한 상태일 것 
