@@ -58,6 +58,6 @@
 * [리스트](https://github.com/winterkang/TIL/blob/master/Python/python_%EA%B8%B0%EC%B4%88.md#%EB%A6%AC%EC%8A%A4%ED%8A%B8list--%EB%B3%80%EA%B2%BD-%EA%B0%80%EB%8A%A5%ED%95%9C-%EA%B0%92%EB%93%A4%EC%9D%98-%EB%82%98%EC%97%B4)
 * [조건문](https://github.com/winterkang/TIL/blob/master/Python/python_%EC%A0%9C%EC%96%B4%EB%AC%B8.md#%EC%A1%B0%EA%B1%B4%EB%AC%B8-conditional-statement)
 * [반복문](https://github.com/winterkang/TIL/blob/master/Python/python_%EC%A0%9C%EC%96%B4%EB%AC%B8.md#%EB%B0%98%EB%B3%B5%EB%AC%B8loop-statement)
-
+* [함수](https://github.com/winterkang/TIL/blob/master/Python/python_%ED%95%A8%EC%88%98.md#%ED%95%A8%EC%88%98-function)
 
 </details>
