@@ -52,6 +52,7 @@ else:
 > for문
 - for문은 시퀀스(string, tuple, list, range)를 포함한 순회가능한 객체(iterable)요소를 모두 순회
 - 처음부터 끝까지 모두 순회하므로 종료조건 필요X
+- 명시적으로 몇 번 실행해야하는지 정해진 상황
 ```
 for <변수명> in <iterable>:
     # Code block
@@ -83,6 +84,69 @@ for i in range(len(fruit))
 >> 3 l
 >> 4 e
 ```
+
+</br>
+
+> while문
+- 종료조건에 해당하는 코드를 통해 반복문을 종료시켜야 함
+- 조건이 참인 경우 코드 실행
+- 몇 번 실행해야할지 모르는 상황에 상황
+- 사용자의 입력 또는 특정한 값이 나올 때까지 지속적으로 반복할 때 사용
+- 무한 루프 하지 않도록 종료조건이 반드시 필요
+```
+while <expression>:
+    # Code block
+```
+```
+a = 0
+while a > 5:
+    print(a)
+    a += 1
+print('끝')
+```
+```
+>> 0
+>> 1
+>> 2
+>> 3
+>> 4
+>> 끝
+# 'a += 1'이 없다면 무한 루프
+# 'a < 5'라면 '끝' 출력
+```
+```
+Q. 1부터 사용자가 입력한 양의 정수까지의 총합을 구하는 코드를 작성하시오
+n = 0
+total = 0
+user_input = int(input())
+while n <= user_input:
+    total += n
+    n += 1
+    print(n, total)
+```
+```
+user_input = 5
+>> 2 1
+>> 1 0
+>> 3 3
+>> 4 6
+>> 5 10
+>> 6 15
+```
+```
+# for문
+user_input = int(input())
+total = 0
+for i in range(1, user_input + 1):
+    total += i
+print(total)
+```
+```
+user_input = 5
+>> 15
+```
+
+</br>
 
 > 반복문 제어
 - break
