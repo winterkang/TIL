@@ -15,15 +15,6 @@
 
 </br>
 
-# 사용자 함수 Custom Function
-```
-def function_name
-    #code block
-    return returning_vlaue
-```
-
-</br>
-
 > 자주 사용하는 함수
 
 |함수|설명|
@@ -103,3 +94,30 @@ print(list(new_new_numbers))
 >> [1,2,3]
 ```
 ![map](/Python/img/map.png)
+
+</br>
+
+# 사용자 함수 Custom Function
+
+`Defining Function`
+```
+def function_name():
+    #code block
+    return returning_vlaue # 값 반환
+```
+- return문을 한번만 사용하면서 두 개 이상의 값을 반환하려면 튜플 사용!
+  - 함수 정의 : def function_name(x, y):
+  - 값 반환 : return x - y, x + y
+  - 함수 호출 : function_name(4, 5)
+  - 튜플로 반환 : (-1, 20)
+
+- 값을 무한하게 받을 경우 (unpacking *)
+  - 함수 정의 : def add(*numbers):
+  - 타입 : * 튜플 
+  - 값 반환 : return total(numbers)
+  - 출력 : print(add(1,2,3)) >> 6
+
+`Calling Function`
+```
+function_name()
+```
