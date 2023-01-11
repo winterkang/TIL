@@ -17,7 +17,7 @@
 
 ## TIL 목차 
 
-## Python
+### Python
 
 <details>
 <summary>자세히</summary>
@@ -39,7 +39,7 @@
 </details>
 
 
-## Git/Github
+### Git/Github
 
 <details>
 <summary>자세히</summary>
@@ -59,7 +59,7 @@
 
 </details>
 
-## 비개발자를 위한 IT지식
+### 비개발자를 위한 IT지식
 <details>
 <summary>자세히</summary>
 
@@ -73,7 +73,7 @@
 
 </details>
 
-##  markdown
+###  markdown
 
 <details>
 <summary>자세히</summary>
