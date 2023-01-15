@@ -35,7 +35,9 @@
 * [파일 입출력](https://github.com/winterkang/TIL/blob/master/Python/python_%ED%8C%8C%EC%9D%BC%20%EC%9E%85%EC%B6%9C%EB%A0%A5.md#%EC%9E%85%EB%A0%A5%EA%B3%BC-%EC%B6%9C%EB%A0%A5 )
 * [튜플](https://github.com/winterkang/TIL/blob/master/Python/python_%ED%8A%9C%ED%94%8C.md#%ED%8A%9C%ED%94%8C-tuple)
 * [집합](https://github.com/winterkang/TIL/blob/master/Python/python_%ED%8A%9C%ED%94%8C.md#%EC%A7%91%ED%95%A9-set)
+* [메서드](https://github.com/winterkang/TIL/blob/master/Python/python_%EB%A9%94%EC%84%9C%EB%93%9C.md#%ED%83%80%EC%9E%85%EB%A9%94%EC%84%9C%EB%93%9C)
 * [사용자 정의 클래스](https://github.com/winterkang/TIL/blob/master/Python/python_%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%A0%95%EC%9D%98%20%ED%81%B4%EB%9E%98%EC%8A%A4.md#%ED%81%B4%EB%9E%98%EC%8A%A4)
+
 </details>
 
 
